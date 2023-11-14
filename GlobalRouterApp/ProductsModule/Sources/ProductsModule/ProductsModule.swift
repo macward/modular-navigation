@@ -7,8 +7,11 @@ import Routing
 public struct ProductsModuleView: View {
     
     @EnvironmentObject private var coordinator: Coordinator
+    @Binding var name: String
     
-    public init() {}
+    public init(name: Binding<String>) {
+        self._name = name
+    }
     
     public var body: some View {
         ZStack {
@@ -22,6 +25,9 @@ public struct ProductsModuleView: View {
                 }
                 Button("Dismiss") {
                     coordinator.dismissAll()
+                }
+                .onAppear() {
+                    name = "Miriam"
                 }
             }
         }

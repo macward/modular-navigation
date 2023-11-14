@@ -11,12 +11,13 @@ import SettingsModule
 import HomeModule
 import ProductsModule
 
+
 public struct AppRouter {
     public static func registerRoutes() {
         ModuleLoader.shared.register(routes: [
             .init(path: "/settings", destination: SettingsView()),
             .init(path: "/home", destination: HomeModuleView()),
-            .init(path: "/products", destination: ProductsModuleView())
+            .init(path: "/products", destination: ProductsModuleView(name: .constant("max ward")))
         ])
     }
 }

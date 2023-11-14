@@ -17,11 +17,10 @@ extension Route: Factory {
         switch self {
         case .home:
             HomeModuleView()
-        case .products:
-            ProductsModuleView()
+        case .products(let name):
+            ProductsModuleView(name: name)
         case .settings:
             SettingsView()
         }
     }
 }
-
