@@ -44,7 +44,7 @@ public class Coordinator: ObservableObject {
         self.fullScreenCover = nil
     }
     
-    public func dismiss() {
+    public func dismissAll() {
         self.sheet = nil
         self.fullScreenCover = nil
     }

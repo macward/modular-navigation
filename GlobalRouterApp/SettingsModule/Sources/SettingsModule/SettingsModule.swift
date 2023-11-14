@@ -19,7 +19,7 @@ public struct SettingsView: View {
                     .foregroundStyle(Color.white)
                 
                 Button("Press me!") {
-                    coordinator.dismiss()
+                    coordinator.dismissAll()
                 }
             }
         }

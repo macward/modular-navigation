@@ -10,12 +10,15 @@ import SwiftUI
 public struct CoordinatorView: View {
     
     @StateObject private var coordinator = Coordinator()
+    private var route: Route
     
-    public init() {}
+    public init(route: Route) {
+        self.route = route
+    }
     
     public var body: some View {
         NavigationStack(path: $coordinator.path) {
-            coordinator.build(route: .home)
+            coordinator.build(route: route)
                 .navigationDestination(item: $coordinator.route, destination: { route in
                     route.contentView
                 })

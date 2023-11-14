@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		500CDF782B02C3E6002AE71D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CDF772B02C3E6002AE71D /* Main.swift */; };
-		500CDF7A2B02C3E6002AE71D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CDF792B02C3E6002AE71D /* ContentView.swift */; };
 		500CDF7C2B02C3EA002AE71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500CDF7B2B02C3EA002AE71D /* Assets.xcassets */; };
 		500CDF7F2B02C3EA002AE71D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500CDF7E2B02C3EA002AE71D /* Preview Assets.xcassets */; };
 		500CDF8E2B02C513002AE71D /* Application in Frameworks */ = {isa = PBXBuildFile; productRef = 500CDF8D2B02C513002AE71D /* Application */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		500CDF742B02C3E6002AE71D /* GlobalRouterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalRouterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		500CDF772B02C3E6002AE71D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		500CDF792B02C3E6002AE71D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		500CDF7B2B02C3EA002AE71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500CDF7E2B02C3EA002AE71D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		500CDF862B02C430002AE71D /* HomeModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HomeModule; path = GlobalRouterApp/HomeModule; sourceTree = SOURCE_ROOT; };
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				500CDF772B02C3E6002AE71D /* Main.swift */,
-				500CDF792B02C3E6002AE71D /* ContentView.swift */,
 				500CDF882B02C46A002AE71D /* Application */,
 				500CDF892B02C489002AE71D /* Routing */,
 				500CDF8B2B02C4FD002AE71D /* Features */,
@@ -168,7 +165,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500CDF7A2B02C3E6002AE71D /* ContentView.swift in Sources */,
 				500CDF782B02C3E6002AE71D /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

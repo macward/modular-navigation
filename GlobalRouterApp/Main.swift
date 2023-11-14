@@ -8,14 +8,16 @@
 import SwiftUI
 import Routing
 import Application
-import HomeModule
-import ProductsModule
 
 @main
 struct GlobalRouterAppApp: App {
+    
+    init() {
+        AppRouter.registerRoutes()
+    }
     var body: some Scene {
         WindowGroup {
-            CoordinatorView()
+            CoordinatorView(route: .home)
         }
     }
 }

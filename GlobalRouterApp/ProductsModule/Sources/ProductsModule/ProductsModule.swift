@@ -21,7 +21,7 @@ public struct ProductsModuleView: View {
                     coordinator.present(sheet: .settings)
                 }
                 Button("Dismiss") {
-                    coordinator.dismiss()
+                    coordinator.dismissAll()
                 }
             }
         }
