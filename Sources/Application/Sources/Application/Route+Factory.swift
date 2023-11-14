@@ -9,6 +9,7 @@ import SwiftUI
 import Routing
 import HomeModule
 import ProductsModule
+import SettingsModule
 
 extension Route: Factory {
     @ViewBuilder
@@ -18,6 +19,8 @@ extension Route: Factory {
             HomeModuleView()
         case .products:
             ProductsModuleView()
+        case .settings:
+            SettingsView()
         }
     }
 }

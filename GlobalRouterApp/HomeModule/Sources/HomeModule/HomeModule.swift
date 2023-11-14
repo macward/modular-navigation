@@ -18,7 +18,7 @@ public struct HomeModuleView: View {
                     .foregroundStyle(Color.white)
                 
                 Button("Press me!") {
-                    coordinator.present(fullScreenCover: .products)
+                    coordinator.present(sheet: .products)
                 }
             }
         }

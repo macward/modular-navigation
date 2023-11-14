@@ -24,6 +24,7 @@
 		500CDF872B02C452002AE71D /* ProductsModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ProductsModule; path = GlobalRouterApp/ProductsModule; sourceTree = SOURCE_ROOT; };
 		500CDF882B02C46A002AE71D /* Application */ = {isa = PBXFileReference; lastKnownFileType = text; name = Application; path = Sources/Application; sourceTree = SOURCE_ROOT; };
 		500CDF892B02C489002AE71D /* Routing */ = {isa = PBXFileReference; lastKnownFileType = text; name = Routing; path = Sources/Routing; sourceTree = SOURCE_ROOT; };
+		50DAD8A22B031C4800B7EDD7 /* SettingsModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SettingsModule; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		500CDF8B2B02C4FD002AE71D /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				50DAD8A22B031C4800B7EDD7 /* SettingsModule */,
 				500CDF872B02C452002AE71D /* ProductsModule */,
 				500CDF862B02C430002AE71D /* HomeModule */,
 			);

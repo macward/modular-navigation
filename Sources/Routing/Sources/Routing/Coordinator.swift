@@ -44,6 +44,11 @@ public class Coordinator: ObservableObject {
         self.fullScreenCover = nil
     }
     
+    public func dismiss() {
+        self.sheet = nil
+        self.fullScreenCover = nil
+    }
+    
     @ViewBuilder
     public func build(route: Route) -> some View {
         route.contentView

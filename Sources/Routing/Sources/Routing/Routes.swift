@@ -10,6 +10,7 @@ import SwiftUI
 public enum Route: Equatable, Identifiable, Hashable {
     case products
     case home
+    case settings
     
     public var id: Int {
         hashValue
